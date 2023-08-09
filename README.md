@@ -2,11 +2,18 @@
 
 ## Description 
 
-coming soon
+There are many different methods to keep data within a database. Before, we were using MySQL but this time we are diving into the world of NoSQL. 
+In this activity, I'll be using Mongoose and MongoDB to store and retrieve data to be used as a mock-social media website. This gives a lot more insight on what is happening behind the curtains of your favorite social media site. 
 
 ## Usage
 
-coming soon
+To use this app, you will first need to seed the files. Do this by typing in `npm run seed` in your terminal 
+
+Now that your files are seeded, run the app by typing in `npm run dev`
+
+Once its up and running, you will open either Insomnia or ThunderClient to test both Thoughts/Comments and User routes. 
+
+See it in action <a href="https://drive.google.com/file/d/1IF4K2XkmohtfVJqDrR37CC2XR5Ts5Y7s/view">here</a>!
 
 ## User Story
 
@@ -29,3 +36,7 @@ THEN I am able to successfully create, update, and delete users and thoughts in 
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 ```
+
+## Credits
+
+Boiler plate code provided by an activity in the KU Bootcamp course. This is done strictly for educational purposes. 
